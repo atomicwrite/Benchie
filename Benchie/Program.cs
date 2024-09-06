@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
  
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 const string helloWorld = "Hello world";
 
 app.MapGet("/helloworld", () => helloWorld)
